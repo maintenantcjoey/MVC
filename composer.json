@@ -1,0 +1,15 @@
+{
+    "name": "wilder/mvc",
+    "authors": [
+        {
+            "name": "joey",
+            "email": "legrand.jessica45@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
