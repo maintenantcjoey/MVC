@@ -1,12 +1,9 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}
-    <title> category </title>
-{% endblock %}
-
+{% block title %}Categories{% endblock %}
 {% block content %}
 <section>
-    <h1>Category</h1>
+    <h1>Les catégories</h1>
     <ul>
         {% for category in categories %}
             <li>{{ category.name }}</li>
@@ -14,3 +11,4 @@
     </ul>
 </section>
 {% endblock %}
+

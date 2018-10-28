@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "06f87d977979f44025364a7ddd0cbdd5",
+    "content-hash": "012eda85501b26fa4dcce5d706fbba78",
     "packages": [
         {
             "name": "nikic/fast-route",

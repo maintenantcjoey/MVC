@@ -1,9 +1,9 @@
 {
-    "name": "wilder/mvc",
+    "name": "nihad/quete_simple_mvc",
     "authors": [
         {
-            "name": "joey",
-            "email": "legrand.jessica45@gmail.com"
+            "name": "Nihad96",
+            "email": "nihad.zatric@gmail.com"
         }
     ],
     "require": {
@@ -14,7 +14,8 @@
 
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "": "src/",
+            "App\\": "app/"
         }
     }
 }

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite31997f1cfc7d5470267acea70393e3b
+class ComposerStaticInit880cf0968f8c4feb6149100009552c62
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -26,6 +26,10 @@ class ComposerStaticInite31997f1cfc7d5470267acea70393e3b
         array (
             'FastRoute\\' => 10,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -44,6 +48,10 @@ class ComposerStaticInite31997f1cfc7d5470267acea70393e3b
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
@@ -64,10 +72,10 @@ class ComposerStaticInite31997f1cfc7d5470267acea70393e3b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite31997f1cfc7d5470267acea70393e3b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite31997f1cfc7d5470267acea70393e3b::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInite31997f1cfc7d5470267acea70393e3b::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite31997f1cfc7d5470267acea70393e3b::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit880cf0968f8c4feb6149100009552c62::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit880cf0968f8c4feb6149100009552c62::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit880cf0968f8c4feb6149100009552c62::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit880cf0968f8c4feb6149100009552c62::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
